@@ -3,7 +3,7 @@ import React from "react";
 const Attributes = ({ products, closeModalProp }) => {
   return (
     <div>
-      <div className="w-screen h-screen fixed mt-64 flex justify-center items-center  bg-gray-400 bg-opacity-5">
+      <div className="w-screen h-screen fixed mt-32 z-30 flex justify-center items-center  bg-gray-400 bg-opacity-5">
         <div className="bg-white card p-8 w-4/5 bg-white border mr-9">
           <button
             onClick={closeModalProp}
