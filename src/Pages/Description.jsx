@@ -3,7 +3,7 @@ import React from "react";
 const Description = ({ products, closeModalProp, value, setValue }) => {
   return (
     <div>
-      <div className="w-screen h-screen fixed mt-56 flex justify-center items-center">
+      <div className="w-screen h-screen fixed mt-32 flex justify-center items-center z-30">
         <div className="bg-white p-8 card border">
           <button
             onClick={closeModalProp}
