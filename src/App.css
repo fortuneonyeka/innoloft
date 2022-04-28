@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .info {
+    
+    display: block;
+    max-width: 100%;
+  }
+
+  .user {
+    width: 80%;
+    border: none;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .buttons {
+    margin-right: 20%;
+  }
+
+  .map{
+    margin-left: 10%;
+    width: 80%;
+  }
+}
